@@ -1,5 +1,7 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+// Landing Pages
 import Layout from './components/Layout';
 import AboutPage from './pages/LandingPages/AboutPage';
 import ArticleListPage from './pages/LandingPages/ArticleListPage';
@@ -58,7 +60,7 @@ const routes = [
   {
     path: 'dashboard/',
     element: <DashLayout />,
-    // Error element
+    // Error element 
     errorElement: <NotFoundPage />,
     children: [{
       // Path declaration

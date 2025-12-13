@@ -10,7 +10,7 @@ const router = express.Router();
 // Single
 // router.get('/', getUsers);
 
-// Combination 
+// Combination  
 router.route('/').get(getUsers).post(createUser);
 
 router.route('/:id').put(updateUser).delete(deleteUser);
