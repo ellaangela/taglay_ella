@@ -4,37 +4,33 @@ function AboutPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <p className="eyebrow">About</p>
-        <h1>Building a calm space for sharp frontend practice.</h1>
+        <p className="eyebrow">Our Story</p>
+        <h1>Creating beautiful, elegant design experiences.</h1>
         <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae aliquam ullamcorper
-          suspendisse sed, libero aenean mauris egestas vel integer nunc nunc.
+          At Wony, we're passionate about crafting stunning, accessible UI components and patterns. Our mission is to help builders create exceptional digital products with thoughtful design at every step.
         </p>
       </div>
 
       <div className="about-grid">
         <div className="about-card">
-          <div className="feature-icon">UX</div>
-          <h3>Design first</h3>
+          <div className="feature-icon">✨</div>
+          <h3>Design Excellence</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit urna, feugiat at orci
-            sollicitudin semper.
+            Every pixel is intentional. We focus on creating beautiful interfaces that are both visually stunning and intuitively designed for users.
           </p>
         </div>
         <div className="about-card">
-          <div className="feature-icon">DX</div>
-          <h3>Developer friendly</h3>
+          <div className="feature-icon">💎</div>
+          <h3>Quality First</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu dictum viverra dignissim
-            purus lacus.
+            We never compromise on quality. Our components are thoroughly tested, accessible, and built to last through evolving design trends.
           </p>
         </div>
         <div className="about-card">
-          <div className="feature-icon">QA</div>
-          <h3>Quality obsessed</h3>
+          <div className="feature-icon">🎨</div>
+          <h3>Creative Innovation</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque sed feugiat
-            mattis neque.
+            We push creative boundaries while maintaining practical usability. Innovation and elegance go hand-in-hand in everything we create.
           </p>
         </div>
       </div>

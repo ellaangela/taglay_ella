@@ -10,15 +10,14 @@ function Footer() {
         <footer className="corporate-footer">
             <div className="footer-content">
                 <div className="footer-section">
-                    <h4>About</h4>
+                    <h4>About Wony</h4>
                     <p>
-                        Curating concise React know-how and tasteful UI ideas for builders who want
-                        to ship fast without looking generic.
+                        Wony is a creative studio dedicated to crafting beautiful, elegant UI components and patterns that inspire. We believe in thoughtful design that balances aesthetics with functionality.
                     </p>
                 </div>
                 <div className="footer-section">
                     <h4>Contact</h4>
-                    <p>Email: cyrusrobles@company.com</p>
+                    <p>Email: ella@company.com</p>
                     <p>Phone: 09**-***-****</p>
                 </div>
                 <div className="footer-section">
@@ -37,7 +36,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                    <p>&copy; {currentYear} Your Company Name. All rights reserved.</p>
+                    <p>&copy; {currentYear} Wony Studio. All rights reserved.</p>
             </div>
         </footer>
     );

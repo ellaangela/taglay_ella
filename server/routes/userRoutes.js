@@ -7,6 +7,9 @@ const router = express.Router();
 // Route composition 
 // (route name, route function[controller])
 
+// Add login route FIRST (before wildcard routes)
+router.post('/login', loginUser);
+
 // Single
 // router.get('/', getUsers);
 
@@ -14,8 +17,5 @@ const router = express.Router();
 router.route('/').get(getUsers).post(createUser);
 
 router.route('/:id').put(updateUser).delete(deleteUser);
-
-// Add login route
-router.post('/login', loginUser);
 
 module.exports = router;

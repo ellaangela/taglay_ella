@@ -9,11 +9,10 @@ function HomePage() {
     <div className="page">
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">Frontend studio</p>
-          <h1>Polished UI patterns without the corporate beige.</h1>
+          <p className="eyebrow">Creative Design Studio</p>
+          <h1>Elegant UI designs crafted with elegance and precision.</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod posuere a aliquam
-            mattis ac sed nibh tincidunt non ultrices.
+            Discover beautiful, accessible React components and thoughtful UI patterns designed for modern web experiences. Every detail matters when creating exceptional digital products.
           </p>
           <div className="hero-actions">
             <Link to="/articles" className="button-link primary">
@@ -42,8 +41,8 @@ function HomePage() {
         <div className="hero-visual">
           <div className="hero-panel">
             <img
-              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
-              alt="Design desk with colorful UI elements"
+              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80"
+              alt="Modern workspace with creative design elements"
             />
             <p className="muted">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices in velit varius
